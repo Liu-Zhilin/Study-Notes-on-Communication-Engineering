@@ -23,3 +23,5 @@ Massive machine-type communication (mMTC)
 Ultra-reliable and low-latency communication (URLLC)
 
 ![image](https://github.com/user-attachments/assets/906d45e4-3f4e-4dad-8441-5aa912226ad2)
+
+![image](https://github.com/user-attachments/assets/fa12eb03-af2b-4710-8933-3bed860e2919)
