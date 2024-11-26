@@ -1,4 +1,4 @@
-The development of mobile communication:
+# The development of mobile communication
 
 ![image](https://github.com/user-attachments/assets/951db6ec-1f71-48e5-bb6e-38b0d0bc29ba)
 
