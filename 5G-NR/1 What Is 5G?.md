@@ -16,11 +16,11 @@
 
 Three distinctive classes of use cases:
 
-Enhanced mobile broadband (eMBB)
+Enhanced mobile broadband (eMBB): human-centric
 
-Massive machine-type communication (mMTC)
+Massive machine-type communication (mMTC): both human- and machine-centric
 
-Ultra-reliable and low-latency communication (URLLC)
+Ultra-reliable and low-latency communication (URLLC): machine-centric
 
 ![image](https://github.com/user-attachments/assets/906d45e4-3f4e-4dad-8441-5aa912226ad2)
 
