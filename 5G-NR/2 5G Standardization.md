@@ -42,7 +42,11 @@ IMT-2020 performance requirements:
 
 # 3GPP Standardization
 Process:
-1. Requirements, where it is decided what is to be achieved by the specification.
-2. Architecture, where the main building blocks and interfaces are decided.
-3. Detailed specifications, where every interface is specified in detail.
-4. Testing and verification, where the interface specifications are proven to work with real-life equipment.
+1.**Requirements**, where it is decided what is to be achieved by the specification.
+2. **Architecture**, where the main building blocks and interfaces are decided.
+3. **Detailed specifications**, where every interface is specified in detail.
+4. **Testing and verification**, where the interface specifications are proven to work with real-life equipment.
+
+Organization: 3GPP consists of three Technical Specifications Groups (TSGs).
+![image](https://github.com/user-attachments/assets/f78737dc-82b0-411c-bcdc-a56236b12e19)
+
