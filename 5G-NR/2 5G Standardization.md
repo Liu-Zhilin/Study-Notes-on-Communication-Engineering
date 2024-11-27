@@ -1,5 +1,5 @@
 # Overview of Standardization and Regulation
-Three groups: 
+**Three groups:** 
 Standards Developing Organizations
 
 regulatory bodies and administrations
