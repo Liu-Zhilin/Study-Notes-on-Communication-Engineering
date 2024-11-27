@@ -30,3 +30,4 @@ The following RSPC recommendations are in existence or planned:
 LTE has emerged as the dominating 4G technology by far.
 ## IMT 2020
 ![image](https://github.com/user-attachments/assets/efd306ee-4d5c-419c-952f-05d1da50c441)
+![image](https://github.com/user-attachments/assets/e89b2328-d958-45db-8c2d-3d7cc57addf2)
