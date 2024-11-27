@@ -30,4 +30,19 @@ The following RSPC recommendations are in existence or planned:
 LTE has emerged as the dominating 4G technology by far.
 ## IMT 2020
 ![image](https://github.com/user-attachments/assets/efd306ee-4d5c-419c-952f-05d1da50c441)
+
+IMT-2020 use cases and mapping to usage scenarios:
 ![image](https://github.com/user-attachments/assets/e89b2328-d958-45db-8c2d-3d7cc57addf2)
+
+Relation between key capabilities and the three usage scenarios of ITU-R:
+![image](https://github.com/user-attachments/assets/28bd16db-e3e2-4dfc-b37e-3fb46d50b840)
+
+IMT-2020 performance requirements:
+![image](https://github.com/user-attachments/assets/5cd27ae0-d65b-4f02-b6b6-e1286400b124)
+
+# 3GPP Standardization
+Process:
+1. Requirements, where it is decided what is to be achieved by the specification.
+2. Architecture, where the main building blocks and interfaces are decided.
+3. Detailed specifications, where every interface is specified in detail.
+4. Testing and verification, where the interface specifications are proven to work with real-life equipment.
