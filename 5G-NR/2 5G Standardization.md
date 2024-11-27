@@ -25,3 +25,5 @@ The following RSPC recommendations are in existence or planned:
 • For IMT-Advanced: ITU-R Recommendation M.2012 containing two different RITs where the most important is 4G/LTE.
 
 • For IMT-2020: A new ITU-R Recommendation, containing the RITs for 5G technologies, planned to be developed in 2019-20.
+![image](https://github.com/user-attachments/assets/eb4e0d84-fa2e-4625-af56-c2a92f07916f)
+
