@@ -21,3 +21,16 @@ Data transmission in LTE is primarily scheduled on a dynamic basis in both uplin
 
 The scheduling decisions are provided to the device through the **Physical Downlink Control Channel (PDCCH)**.
 在5G NR中，控制信道仅包括PDCCH（Physical Downlink Control Channel），负责物理层各种关键控制信息的传递
+
+**Multiantenna schemes**, and in particular single-user MIMO, are an integral part of LTE.
+
+The transmission rank, as well as the exact precoder matrix, can be selected by the network based on channel-status measurements carried out and reported by the terminal, also known as *closed-loop spatial multiplexing*.
+
+LTE release 8 is in theory capable of providing *peak data rates up to 150 Mbit/s in the downlink* using two-layer transmission in *20 MHz and 75 Mbit/s in the uplink*.
+
+## LTE Evolution
+![image](https://github.com/user-attachments/assets/43880b49-545a-49ad-8ede-ac7af927a3e8)
+- Release 10:
+  - LTE radio-access technology would be fully compliant with the *IMT-Advanced* requirements.
+  - backwards compatibility: An earlier-release LTE device should be able to access a carrier supporting LTE release-10 functionality.
+  - Introduced enhanced LTE spectrum flexibility through *carrier aggregation*, further extended multiantenna transmission, support for relaying, and improvements around intercell interference coordination in heterogeneous network deployments.
