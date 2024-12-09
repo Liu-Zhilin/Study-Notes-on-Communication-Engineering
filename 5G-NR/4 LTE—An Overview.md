@@ -30,7 +30,21 @@ LTE release 8 is in theory capable of providing *peak data rates up to 150 Mbit/
 
 ## LTE Evolution
 ![image](https://github.com/user-attachments/assets/43880b49-545a-49ad-8ede-ac7af927a3e8)
-- Release 10:
+- Release 10 (2010):
   - LTE radio-access technology would be fully compliant with the *IMT-Advanced* requirements.
   - backwards compatibility: An earlier-release LTE device should be able to access a carrier supporting LTE release-10 functionality.
   - Introduced enhanced LTE spectrum flexibility through *carrier aggregation*, further extended multiantenna transmission, support for relaying, and improvements around intercell interference coordination in heterogeneous network deployments.
+- Release 11 (2012):
+  - Radio-interface functionality for *coordinated multipoint (CoMP)* transmission and reception.
+  - Carrier-aggregation enhancements, a new control-channel structure (EPDCCH).
+- Release 12 (2014):
+  - Focused on small cells with features such as dual connectivity, small-cell on/off, and (semi-)dynamic TDD.
+  - Introduction of direct device-to-device communication and provisioning of complexity-reduced machine-type communication.
+- Release 13 (2015):
+  - The start of LTE Advanced Pro.
+  - License-assisted access to support unlicensed spectra as a complement to licensed spectra, improved support for machine-type communication, and various enhancements in carrier aggregation, multi-antenna transmission, and deviceto-device communication are some of the highlights.
+- Release 14 (2017):
+  - Support for vehicle-to-vehicle (V2V) and vehicle-to-everything (V2X) communication.
+  - Wide-area broadcast support with a reduced subcarrier spacing.
+- Release 15 (2018):
+  -Reduced latency through the so-called sTTI feature.
