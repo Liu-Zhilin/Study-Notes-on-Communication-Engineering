@@ -10,3 +10,8 @@ initial access.
 ## HIGHER-FREQUENCY OPERATION AND SPECTRUM FLEXIBILITY
 One key feature of NR is a substantial expansion in terms of the range of spectra in which the radio-access technology can be deployed. Unlike LTE, where support for licensed spectra at 3.5 GHz and unlicensed spectra at 5 GHz are just being introduced, NR supports licensed-spectrum operation from **below 1 GHz up to 52.6 GHz** already from its first release.
 ## ULTRA-LEAN DESIGN
+An issue with current mobile-communication technologies is the amount of transmissions carried by network nodes regardless of the amount of user traffic. Such signals, sometimes referred to as “always-on” signals.
+
+The always-on transmissions have two negative impacts:
+- They impose an upper limit on the achievable network energy performance;
+- They cause interference to other cells, thereby reducing the achievable data rates.
