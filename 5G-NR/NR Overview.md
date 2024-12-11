@@ -31,3 +31,9 @@ The *ultra-lean design* principle aims at minimizing the always-on transmissions
 - NR supports a more efficient approach to low latency by allowing for transmission over a fraction of a slot, sometimes referred to as “mini-slot” transmission. Such transmissions can also preempt an already ongoing slot-based transmission to another device, allowing for immediate transmission of data requiring very low latency.
   ![image](https://github.com/user-attachments/assets/0febff4b-d681-415d-8b24-720d91afe484)
 - Unlike LTE, NR does not include cell-specific reference signals but solely relies on user-specific demodulation reference signals for channel estimation.
+
+## Duplex Schemes ##
+![image](https://github.com/user-attachments/assets/6883fef1-3cba-4934-89ff-75f94876176f)
+- For lower-frequency bands, allocations are often paired, implying frequencydivision duplex (FDD). At higher-frequency bands, unpaired spectrum allocations are increasingly common, calling for time-division duplex (TDD).
+- NR can operate in both paired and unpaired spectra using **one common frame** structure. The basic NR frame structure is designed such that it can support both half-duplex and full-duplex operation.
+- In such denser deployments with smaller cell sizes, the per-cell traffic variations are more rapid compared to large-cell deployments with a large number of active devices per cell. To address such scenarios, dynamic TDD, that is, the possibility for dynamic assignment and reassignment of time-domain resources between the downlink and uplink transmission directions, is a key NR technology component.
