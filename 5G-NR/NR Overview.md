@@ -20,4 +20,14 @@ The *ultra-lean design* principle aims at minimizing the always-on transmissions
 3GPP agreed on some basic design principles related to NR forward compatibility:
 - Maximizing the amount of time and frequency resources that can be flexibly utilized or that can be left blank without causing backward compatibility issues in the future;
 - Minimizing transmission of always-on signals;
-- Confining signals and channels for physical layer functionalities within a configurable/allocable time/frequency resource.
+- Confining signals and channels for physical layer functionalities within a configurable/allocable time/frequency resource.(*as much as possible, avoid having transmissions on time/frequency resources fixed by the specification. In this way one retains flexibility for the future, allowing for later introduction of new types of transmissions with limited constraints from legacy signals and channels.*)
+
+## TRANSMISSION SCHEME, BANDWIDTH PARTS, AND FRAME STRUCTURE
+- NR uses conventional, that is, **non-DFT-precoded OFDM**, as the baseline uplink transmission scheme due to the simpler receiver structures in combination with spatial multiplexing and an overall desire to have the same transmission scheme in both uplink and downlink.
+- DFT-precoding can be used as a complement in the uplink, namely to enable high power-amplifier efficiency on the device side by reducing the *cubic metric*. Cubic metric is a measure of the amount of additional power back-off needed for a certain signal waveform.
+- NR supports a flexible OFDM numerology with subcarrier spacings ranging from 15 kHz up to 240 kHz with a proportional change in cyclic prefix duration.
+  ![image](https://github.com/user-attachments/assets/bea36552-4936-440a-8349-5a19eda7b068)
+- NR allows for *device-side receiver-bandwidth adaptation* as a means to reduce the device energy consumption.
+- NR supports a more efficient approach to low latency by allowing for transmission over a fraction of a slot, sometimes referred to as “mini-slot” transmission. Such transmissions can also preempt an already ongoing slot-based transmission to another device, allowing for immediate transmission of data requiring very low latency.
+  ![image](https://github.com/user-attachments/assets/0febff4b-d681-415d-8b24-720d91afe484)
+- Unlike LTE, NR does not include cell-specific reference signals but solely relies on user-specific demodulation reference signals for channel estimation.
