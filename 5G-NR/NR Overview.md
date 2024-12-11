@@ -16,3 +16,8 @@ The always-on transmissions have two negative impacts:
 - They impose an upper limit on the achievable network energy performance;
 - They cause interference to other cells, thereby reducing the achievable data rates.
 The *ultra-lean design* principle aims at minimizing the always-on transmissions, thereby enabling higher network energy performance and higher achievable data rates.
+
+3GPP agreed on some basic design principles related to NR forward compatibility:
+- Maximizing the amount of time and frequency resources that can be flexibly utilized or that can be left blank without causing backward compatibility issues in the future;
+- Minimizing transmission of always-on signals;
+- Confining signals and channels for physical layer functionalities within a configurable/allocable time/frequency resource.
