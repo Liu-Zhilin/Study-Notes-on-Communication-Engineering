@@ -7,3 +7,6 @@ Compared to LTE, NR provides many benefits. Some of the main ones are:
 - Low latency to improve performance and enable new use cases;
 - A beam-centric design enabling extensive usage of beamforming and a massive number of antenna elements not only for data transmission (which to some extent is possible in LTE) but also for control-plane procedures such as
 initial access.
+## HIGHER-FREQUENCY OPERATION AND SPECTRUM FLEXIBILITY
+One key feature of NR is a substantial expansion in terms of the range of spectra in which the radio-access technology can be deployed. Unlike LTE, where support for licensed spectra at 3.5 GHz and unlicensed spectra at 5 GHz are just being introduced, NR supports licensed-spectrum operation from **below 1 GHz up to 52.6 GHz** already from its first release.
+## ULTRA-LEAN DESIGN
