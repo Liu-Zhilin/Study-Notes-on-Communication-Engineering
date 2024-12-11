@@ -37,3 +37,15 @@ The *ultra-lean design* principle aims at minimizing the always-on transmissions
 - For lower-frequency bands, allocations are often paired, implying frequencydivision duplex (FDD). At higher-frequency bands, unpaired spectrum allocations are increasingly common, calling for time-division duplex (TDD).
 - NR can operate in both paired and unpaired spectra using **one common frame** structure. The basic NR frame structure is designed such that it can support both half-duplex and full-duplex operation.
 - In such denser deployments with smaller cell sizes, the per-cell traffic variations are more rapid compared to large-cell deployments with a large number of active devices per cell. To address such scenarios, dynamic TDD, that is, the possibility for dynamic assignment and reassignment of time-domain resources between the downlink and uplink transmission directions, is a key NR technology component.
+
+## Low Latency Support
+- One example is the use of “front-loaded” reference signals and control signaling.
+- The requirements on the device (and network) processing times are tightened significantly in NR compared to LTE.
+- The higher-layer protocols MAC and RLC have also been designed with low latency in mind with header structures chosen to enable processing without knowing the amount of data to transmit.
+
+## SCHEDULING AND DATA TRANSMISSION
+- Instead of trying to combat these variations, they can be exploited through *channel-dependent scheduling* where the time-frequency resources are dynamically shared between users.
+## Control Channels
+- Downlink control channels are known as PDCCHs (physical downlink control channels). One major difference compared to LTE is the more flexible timefrequency structure of downlink control channels where PDCCHs are transmitted in one or more control resource sets (CORESETs). Another major difference compared to LTE is the support for beamforming of the control channels, which has required a different reference signal design with each control channel having its own dedicated reference signal.
+- Uplink control information, such as hybrid-ARQ acknowledgments, channelstate feedback for multi-antenna operation, and scheduling request for uplink data awaiting transmission, are transmitted using the physical uplink control channel (PUCCH).
+- For the physical-layer control channels, for which the information blocks are small compared to data transmission and hybrid-ARQ is not used, polar codes have been selected. For the smallest control payloads, Reed!Muller codes are used.
