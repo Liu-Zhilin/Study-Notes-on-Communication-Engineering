@@ -31,6 +31,10 @@ The *ultra-lean design* principle aims at minimizing the always-on transmissions
 - NR supports a more efficient approach to low latency by allowing for transmission over a fraction of a slot, sometimes referred to as “mini-slot” transmission. Such transmissions can also preempt an already ongoing slot-based transmission to another device, allowing for immediate transmission of data requiring very low latency.
   ![image](https://github.com/user-attachments/assets/0febff4b-d681-415d-8b24-720d91afe484)
 - Unlike LTE, NR does not include cell-specific reference signals but solely relies on user-specific demodulation reference signals for channel estimation.
+## BEAM-CENTRIC DESIGN AND MULTI-ANTENNA TRANSMISSION
+- Support for a for a large number of steerable antenna elements for both transmission and reception is a key feature of NR. At higher-frequency bands, the large number of antenna elements are primarily used for beamforming to extend coverage, while at lower-frequency sometimes referred to as massive MIMO, and interference avoidance by spatial separation.bands they enable full-dimensional MIMO, sometimes referred to as massive MIMO, and interference avoidance by spatial separation.
+- Analog beamforming results in the constraint that a receive or transmit beam can only be formed in one direction at a given time instant and requires beam-sweeping where the same signal is repeated in multiple OFDM symbols but in different transmit beams.
+![image](https://github.com/user-attachments/assets/a8b16cc4-15f2-478d-bbdf-c4ebf51d5cf8)
 
 ## Duplex Schemes ##
 ![image](https://github.com/user-attachments/assets/6883fef1-3cba-4934-89ff-75f94876176f)
@@ -49,3 +53,15 @@ The *ultra-lean design* principle aims at minimizing the always-on transmissions
 - Downlink control channels are known as PDCCHs (physical downlink control channels). One major difference compared to LTE is the more flexible timefrequency structure of downlink control channels where PDCCHs are transmitted in one or more control resource sets (CORESETs). Another major difference compared to LTE is the support for beamforming of the control channels, which has required a different reference signal design with each control channel having its own dedicated reference signal.
 - Uplink control information, such as hybrid-ARQ acknowledgments, channelstate feedback for multi-antenna operation, and scheduling request for uplink data awaiting transmission, are transmitted using the physical uplink control channel (PUCCH).
 - For the physical-layer control channels, for which the information blocks are small compared to data transmission and hybrid-ARQ is not used, polar codes have been selected. For the smallest control payloads, Reed!Muller codes are used.
+
+## Initial Access
+Initial access is the procedures allowing a device to find a cell to camp on, receive the necessary system information, and to request a connection through random access.
+- There is a pair of downlink signals, the primary synchronization signal (PSS) and the secondary synchronization signal (SSS), that is used by devices to find, synchronize to, and identify a network;
+- There is a downlink physical broadcast channel (PBCH) transmitted together with the PSS/SSS. The PBCH carries a minimum amount of system information including an indication where the remaining broadcast system information is transmitted. In the context of NR, the PSS, SSS, and PBCH are jointly referred to as a synchronization signal (SS) block;
+- There is a four-stage random-access procedure, commencing with the uplink transmission of a random-access preamble.
+However, there are some important differences between LTE and NR in terms of initial access. These differences come mainly from the ultra-lean principle and the beam-centric design.
+## INTERWORKING AND LTE COEXISTENCE
+Two coexistence scenarios were identified in 3GPP and guided the NR design:
+- In the first scenario, illustrated in the left part of Fig. 5.6, there is LTE/NR coexistence in both downlink and uplink. Note that this is relevant for both paired and unpaired spectra although a paired spectrum is used in the illustration.
+- In the second scenario, illustrated in the right part of Fig. 5.6, there is coexistence only in the uplink transmission direction, typically within the uplink part of a lower-frequency paired spectrum, with NR downlink transmission taking place in the spectrum dedicated to NR, typically at higher frequencies. This scenario attempts to address the uplink!downlink imbalance discussed above. NR supports a supplementary uplink (SUL) to specifically handle this scenario.
+![image](https://github.com/user-attachments/assets/fd2ca330-5368-4c5f-9ed3-2ae5d2d49b70)
