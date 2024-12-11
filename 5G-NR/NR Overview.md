@@ -15,3 +15,4 @@ An issue with current mobile-communication technologies is the amount of transmi
 The always-on transmissions have two negative impacts:
 - They impose an upper limit on the achievable network energy performance;
 - They cause interference to other cells, thereby reducing the achievable data rates.
+The *ultra-lean design* principle aims at minimizing the always-on transmissions, thereby enabling higher network energy performance and higher achievable data rates.
